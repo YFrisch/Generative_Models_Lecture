@@ -1,0 +1,16 @@
+# Local Python environments and bytecode.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local Jupyter state. Educational notebooks, data, and checkpoints stay tracked.
+.ipynb_checkpoints/
+
+# Local validation/tool caches.
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+build/

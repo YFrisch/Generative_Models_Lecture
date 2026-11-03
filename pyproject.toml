@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genai-lecture-notebooks"
+version = "0.1.0"
+description = "From-first-principles educational notebooks for generative models"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "torch>=2.2",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "ipython>=8.20",
+    "pillow>=10.0",
+    "jupyter>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "nbformat>=5.10",
+    "nbclient>=0.10",
+]
+
+[tool.setuptools]
+packages = []
+
