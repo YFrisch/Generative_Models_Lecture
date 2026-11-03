@@ -18,6 +18,10 @@ This repository is a notebook-based introduction to five major generative-model 
 
 The material is intended for advanced undergraduate or graduate students, engineers, and researchers who know basic machine learning and want to connect generative-model equations to compact PyTorch implementations. The notebooks favor inspectable, from-scratch components over framework abstractions and production-scale performance.
 
+## How to use this material
+
+For the most educational value, run the notebooks step by step in a Jupyter environment rather than only reading the rendered notebooks on GitHub. Executing the cells interactively makes it easier to inspect intermediate results, experiment with the code, connect each implementation step to the theory, and answer the self-check questions and exercises in the last notebook without spoilers.
+
 ## Prerequisites
 
 You should be comfortable with:
