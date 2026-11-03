@@ -134,3 +134,9 @@ python -c "import pathlib, nbformat; [nbformat.read(path, as_version=4) for path
 ```
 
 Do not use blanket “execute every notebook” validation in routine checks: notebooks 07-12 may load large checkpoints, train for hours, or run many sampling steps. Validate expensive notebooks selectively and with their documented checkpoint settings.
+
+## Contributing and license
+
+Feedback, corrections, and contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution guidelines.
+
+This project is available under the [MIT License](LICENSE).

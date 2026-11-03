@@ -7,6 +7,13 @@ name = "genai-lecture-notebooks"
 version = "0.1.0"
 description = "From-first-principles educational notebooks for generative models"
 readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "YFrisch" },
+]
+maintainers = [
+    { name = "YFrisch" },
+]
 requires-python = ">=3.10,<3.14"
 dependencies = [
     "torch>=2.2",
@@ -17,6 +24,10 @@ dependencies = [
     "jupyter>=1.0",
 ]
 
+[project.urls]
+Repository = "https://github.com/YFrisch/Generative_Models_Lecture"
+Issues = "https://github.com/YFrisch/Generative_Models_Lecture/issues"
+
 [project.optional-dependencies]
 dev = [
     "nbformat>=5.10",
@@ -25,4 +36,3 @@ dev = [
 
 [tool.setuptools]
 packages = []
-
